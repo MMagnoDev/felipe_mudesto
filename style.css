@@ -866,6 +866,48 @@ button {
   align-items: center;
 }
 
+.footer-contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.footer-contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  transition: var(--transition);
+}
+
+.footer-contact-item:hover {
+  color: var(--color-brand-dark);
+}
+
+.footer-contact-item .contact-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-accent);
+}
+
+.footer-divider {
+  width: 100%;
+  max-width: 400px;
+  height: 1px;
+  background-color: var(--color-border);
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .footer-copyright {
   font-size: 0.72rem;
   color: rgba(1, 1, 1, 0.55);
