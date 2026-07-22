@@ -63,7 +63,6 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
   width: 100%;
 }
 
@@ -72,7 +71,6 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
-  overflow-x: hidden;
   position: relative;
   width: 100%;
 }
