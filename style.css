@@ -286,6 +286,19 @@ button {
   margin-bottom: 20px;
 }
 
+.hero-logo-h1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.hero-logo-img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
 .hero-subtitle {
   font-size: 1.05rem;
   font-weight: 400;
@@ -1040,6 +1053,14 @@ button {
 
   .hero h1 {
     font-size: 3rem;
+  }
+
+  .hero-logo-h1 {
+    justify-content: center;
+  }
+
+  .hero-logo-img {
+    height: 60px;
   }
 
   .hero-subtitle {
