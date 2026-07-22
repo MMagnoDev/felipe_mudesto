@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Mudesto — Contabilidade Estratégica & Inteligência Financeira</title>
+  <meta name="description"
+    content="Gestão contábil e planejamento fiscal de alto padrão para empresas e profissionais que buscam eficiência, compliance e crescimento seguro.">
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Elementos Decorativos de Fundo -->
+  <!-- Dois círculos desfocados posicionados como fundo absoluto -->
+  <div class="blur-circle blur-circle-1" aria-hidden="true"></div>
+  <div class="blur-circle blur-circle-2" aria-hidden="true"></div>
+
+  <!-- Monograma de fundo com as iniciais -->
+  <div class="bg-monogram" aria-hidden="true">
+    <img src="logo.png" alt="Logo Felipe Mudesto">
+  </div>
+
+  <!-- 1. Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="section-tag fade-in-up">Contabilidade e Assessoria Tributária</div>
+          <h1 class="fade-in-up">Felipe Mudesto</h1>
+          <p class="hero-subtitle fade-in-up">
+            Cuidamos de toda a rotina fiscal, trabalhista e contábil da sua empresa para você focar no crescimento do
+            seu negócio com total segurança.
+          </p>
+          <div class="hero-actions fade-in-up">
+            <!-- ALTERAR NÚMERO DO WHATSAPP -->
+            <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20iniciar%20uma%20consulta%20contábil%20para%20minha%20empresa."
+              class="btn btn-primary" aria-label="Falar com Felipe Mudesto pelo WhatsApp" target="_blank"
+              rel="noopener noreferrer">
+              Falar com Especialista
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#servicos" class="btn btn-secondary" aria-label="Visualizar nossos serviços contábeis">
+              Nossos Serviços
+            </a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper fade-in-up">
+          <div class="hero-image-container">
+            <img src="perfil.png" alt="Retrato profissional de Felipe Mudesto" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Links Rápidos -->
+  <section class="quick-links-section reveal" id="links">
+    <div class="container-narrow">
+      <div class="quick-links-stack">
+
+        <!-- Link 1: WhatsApp -->
+        <!-- ALTERAR NÚMERO DO WHATSAPP -->
+        <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20iniciar%20um%20atendimento%20pelo%20WhatsApp."
+          class="quick-link-card" target="_blank" rel="noopener noreferrer"
+          aria-label="Enviar mensagem direta via WhatsApp">
+          <div class="quick-link-left">
+            <div class="quick-link-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+              </svg>
+            </div>
+            <div class="quick-link-info">
+              <h3>Chame no WhatsApp</h3>
+              <p>Tire suas dúvidas ou solicite uma proposta rapidamente.</p>
+            </div>
+          </div>
+          <div class="quick-link-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Link 2: Serviços -->
+        <a href="#servicos" class="quick-link-card" aria-label="Visualizar especialidades e serviços contábeis">
+          <div class="quick-link-left">
+            <div class="quick-link-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                <line x1="9" y1="12" x2="15" y2="12"></line>
+                <line x1="9" y1="16" x2="15" y2="16"></line>
+                <line x1="9" y1="8" x2="10" y2="8"></line>
+              </svg>
+            </div>
+            <div class="quick-link-info">
+              <h3>Conheça Nossos Serviços</h3>
+              <p>Veja tudo o que podemos fazer pelo departamento fiscal e contábil da sua empresa.</p>
+            </div>
+          </div>
+          <div class="quick-link-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Link 3: Localização -->
+        <!-- ALTERAR LINK DO GOOGLE MAPS -->
+        <a href="https://maps.google.com" class="quick-link-card" target="_blank" rel="noopener noreferrer"
+          aria-label="Abrir localização do escritório no Google Maps">
+          <div class="quick-link-left">
+            <div class="quick-link-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="quick-link-info">
+              <h3>Onde Estamos</h3>
+              <p>Veja nosso endereço completo e agende uma visita presencial.</p>
+            </div>
+          </div>
+          <div class="quick-link-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Sobre -->
+  <section class="section reveal" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image-container">
+            <img src="fotoSobre.png" alt="Felipe Mudesto em atendimento" loading="lazy">
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">SOBRE FELIPE MUDESTO</span>
+          <h2 class="section-title">Parcerias reais e contabilidade sem burocracia para sua empresa crescer.</h2>
+          <p class="about-text">
+            Sou contador especializado em assessoria contábil e planejamento tributário para empresas e profissionais
+            liberais. Meu objetivo é desburocratizar a sua rotina com o Fisco e garantir que você pague apenas os
+            impostos estritamente necessários, sempre de forma 100% legal.
+          </p>
+          <p class="about-text">
+            Acredito em um atendimento próximo e personalizado. Muito mais do que preencher guias e cumprir prazos
+            fiscais, trabalho ao seu lado com relatórios simples de ler, fornecendo dados claros e seguros para apoiar o
+            crescimento real da sua empresa.
+          </p>
+          <blockquote class="about-quote">
+            "A contabilidade de verdade não serve apenas para apurar impostos; ela deve ser a principal ferramenta para
+            você tomar as melhores decisões sobre o futuro do seu negócio."
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Serviços -->
+  <section class="section services-section reveal" id="servicos">
+    <div class="container">
+      <span class="section-tag">Nossos Serviços</span>
+      <h2 class="section-title">Especialidades contábeis para sua empresa</h2>
+
+      <div class="services-grid">
+        <!-- Serviço 1 -->
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3 class="service-title">Assessoria Contábil</h3>
+          <p class="service-desc">
+            Cuidamos da escrituração diária, controle de balancetes, livros contábeis e demonstrativos financeiros para
+            dar transparência total às contas da sua empresa.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20a%20área%20Contábil%20da%20minha%20empresa."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Assessoria Contábil">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Serviço 2 -->
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h3 class="service-title">Gestão Fiscal e Tributária</h3>
+          <p class="service-desc">
+            Cálculo e apuração de tributos municipais, estaduais e federais (Simples Nacional, Lucro Presumido e Lucro
+            Real) com total pontualidade e conformidade legal.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20a%20área%20Fiscal%20e%20apuração%20de%20tributos."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Gestão Fiscal e Tributária">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Serviço 3 -->
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3 class="service-title">Departamento Pessoal</h3>
+          <p class="service-desc">
+            Processamento completo da folha de pagamento, contratações, demissões, cálculo de férias, 13º salário,
+            apuração de encargos trabalhistas (FGTS, INSS) e envio do eSocial.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20Folha%20de%20Pagamento%20e%20rotinas%20trabalhistas."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Departamento Pessoal">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Serviço 4 -->
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3 class="service-title">Legalização e Societário</h3>
+          <p class="service-desc">
+            Processo ágil para abertura de empresas, alteração contratual, registro em órgãos e cartórios, obtenção de
+            licenças, alvarás e encerramento definitivo de atividades.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20serviços%20Societários%20e%20abertura%20de%20empresas."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Legalização e Societário">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Serviço 5 -->
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <h3 class="service-title">Imposto de Renda (PF e PJ)</h3>
+          <p class="service-desc">
+            Elaboração e transmissão de declarações IRPF e IRPJ, análise detalhada da evolução de bens e planejamento
+            tributário anual para evitar riscos e a malha fina.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20a%20declaração%20de%20Imposto%20de%20Renda."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Imposto de Renda">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Serviço 6 -->
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <h3 class="service-title">Recuperação de Impostos</h3>
+          <p class="service-desc">
+            Revisão e levantamento do seu histórico fiscal recente para identificar tributos que foram pagos a maior ou
+            indevidamente, trazendo este dinheiro de volta para o caixa.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20saber%20mais%20sobre%20Recuperação%20Tributária%20e%20créditos."
+            class="service-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Saber mais sobre Recuperação de Impostos">
+            Saber mais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Diferenciais -->
+  <section class="section reveal" id="diferenciais">
+    <div class="container">
+      <div class="diff-grid">
+        <div class="diff-intro">
+          <span class="section-tag">POR QUE TRABALHAR CONOSCO</span>
+          <h2 class="section-title">Uma assessoria próxima e voltada para a prática</h2>
+          <p class="about-text">
+            Acreditamos em parcerias de verdade. Por isso, oferecemos um atendimento direto e ágil para que a burocracia
+            nunca trave o dia a dia do seu negócio.
+          </p>
+        </div>
+        <div class="diff-list">
+
+          <!-- Item 1 -->
+          <div class="diff-item">
+            <div class="diff-header">
+              <span class="diff-num">01/</span>
+              <h3>Fale direto com quem resolve</h3>
+            </div>
+            <p class="diff-desc">
+              Chega de secretárias eletrônicas, longas esperas ou intermediários. Aqui, você fala de forma direta com o
+              seu especialista via WhatsApp ou ligação.
+            </p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="diff-item">
+            <div class="diff-header">
+              <span class="diff-num">02/</span>
+              <h3>Relatórios simples de entender</h3>
+            </div>
+            <p class="diff-desc">
+              Esqueça as planilhas indecifráveis. Apresentamos balancetes de maneira clara e transparente para você
+              entender a real situação do seu caixa.
+            </p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="diff-item">
+            <div class="diff-header">
+              <span class="diff-num">03/</span>
+              <h3>Tranquilidade e segurança total</h3>
+            </div>
+            <p class="diff-desc">
+              Garantimos o cumprimento rigoroso de todas as normas e prazos do calendário fiscal, eliminando o risco de
+              multas e autuações tributárias.
+            </p>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="diff-item">
+            <div class="diff-header">
+              <span class="diff-num">04/</span>
+              <h3>Economia legal de impostos</h3>
+            </div>
+            <p class="diff-desc">
+              Analisamos constantemente o enquadramento tributário da sua empresa para garantir que ela esteja sempre no
+              regime que gera a menor carga de impostos.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Depoimentos -->
+  <section class="section testimonials-section reveal" id="depoimentos">
+    <div class="container">
+      <div class="testimonials-container">
+
+        <!-- Ícone de aspas decorativo -->
+        <div class="quote-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+              d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h3c0 3.25-2.25 6-5 6v3zm11 0c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 2v4c0 1.25.75 2 2 2h3c0 3.25-2.25 6-5 6v3z">
+            </path>
+          </svg>
+        </div>
+
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">A opinião de quem confia em nossa assessoria</h2>
+
+        <div class="testimonial-track-wrapper">
+          <div class="testimonial-track">
+
+            <!-- SUBSTITUIR DEPOIMENTOS DEMONSTRATIVOS POR AVALIAÇÕES REAIS -->
+
+            <!-- Slide 1 -->
+            <div class="testimonial-slide active" aria-hidden="false">
+              <div class="testimonial-card">
+                <p class="testimonial-text">
+                  "O planejamento tributário estratégico estruturado pelo Felipe trouxe uma economia contábil essencial
+                  e perfeitamente dentro da lei para a nossa software house."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Rodrigo Mendes</span>
+                  <span class="author-meta">CEO da Nexus Softwares</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide" aria-hidden="true">
+              <div class="testimonial-card">
+                <p class="testimonial-text">
+                  "A implantação do acompanhamento consultivo e de relatórios integrados nos permitiu uma visão de caixa
+                  muito mais nítida para investimentos futuros."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Heloísa Brandão</span>
+                  <span class="author-meta">Sócia-Diretora da Construtora Vitta</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testimonial-slide" aria-hidden="true">
+              <div class="testimonial-card">
+                <p class="testimonial-text">
+                  "Confiança técnica absoluta e total atenção aos prazos. A transição fiscal societária do nosso grupo
+                  transcorreu de forma perfeitamente transparente."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Flávia Meireles</span>
+                  <span class="author-meta">Diretora Financeira da Prime Logística</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="testimonial-slide" aria-hidden="true">
+              <div class="testimonial-card">
+                <p class="testimonial-text">
+                  "Contar com o BPO financeiro estruturado pelo Felipe Mudesto liberou nossa equipe operacional de
+                  tarefas burocráticas para focar no crescimento da agência."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Thiago Diniz</span>
+                  <span class="author-meta">Fundador da Flow Studio</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Controles do Carrossel -->
+        <div class="testimonial-controls">
+          <div class="testimonial-nav">
+            <button class="btn-nav prev" aria-label="Depoimento anterior">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+            </button>
+            <button class="btn-nav next" aria-label="Próximo depoimento">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="testimonial-dots" role="tablist">
+            <!-- Gerado dinamicamente via JS -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 8. CTA Final -->
+  <section class="cta-section reveal">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2 class="cta-title">Quer pagar menos impostos de forma totalmente legal?</h2>
+          <p class="cta-text">
+            Fale conosco hoje mesmo para avaliarmos o melhor regime tributário para o seu negócio e descobrir
+            oportunidades reais de economia.
+          </p>
+          <!-- ALTERAR NÚMERO DO WHATSAPP -->
+          <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20agendar%20um%20diagnóstico%20tributário%20para%20minha%20empresa."
+            class="btn btn-primary" target="_blank" rel="noopener noreferrer"
+            aria-label="Fale conosco no WhatsApp para agendar diagnóstico">
+            Falar com Contador
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-copyright">
+          &copy; <span id="year"></span> Felipe Mudesto. Todos os direitos reservados.
+        </div>
+        <div class="footer-credit">
+          CRC-X / XXXXX-X &bull; Desenvolvido por <a href="https://www.instagram.com/clean.designn/" target="_blank"
+            rel="noopener noreferrer">Agência Clean</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 10. Botão Flutuante do WhatsApp -->
+  <!-- ALTERAR NÚMERO DO WHATSAPP -->
+  <a href="https://wa.me/5511989734047?text=Olá%20Felipe,%20gostaria%20de%20iniciar%20um%20atendimento."
+    class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar com Felipe Mudesto no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+      stroke-linejoin="round" aria-hidden="true">
+      <path
+        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+      </path>
+    </svg>
+  </a>
+
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
